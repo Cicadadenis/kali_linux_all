@@ -73,37 +73,37 @@ Installation Complete
 Можем оперативно проверить, все ли услуги устраивают:
 
      kali@kali:/tmp/guac-install$ systemctl status tomcat9 guacd mysql
-● tomcat9.service - Apache Tomcat 9 Web Application Server\
-          Loaded: loaded (/lib/systemd/system/tomcat9.service; enabled; vendor preset: disabled)\
-          Active: active (running) since Thu 2020-03-05 17:39:38 GMT; 1min 14s ago\
-            Docs: https://tomcat.apache.org/tomcat-9.0-doc/index.html\
-        Main PID: 33192 (java)\
-           Tasks: 47 (limit: 19107)\
-          Memory: 454.8M\
-          CGroup: /system.slice/tomcat9.service\
-                  └─33192 /usr/lib/jvm/default-java/bin/java -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.a>
+     ● tomcat9.service - Apache Tomcat 9 Web Application Server\
+               Loaded: loaded (/lib/systemd/system/tomcat9.service; enabled; vendor preset: disabled)\
+               Active: active (running) since Thu 2020-03-05 17:39:38 GMT; 1min 14s ago\
+                 Docs: https://tomcat.apache.org/tomcat-9.0-doc/index.html\
+             Main PID: 33192 (java)\
+                Tasks: 47 (limit: 19107)\
+               Memory: 454.8M\
+               CGroup: /system.slice/tomcat9.service\
+                       └─33192 /usr/lib/jvm/default-java/bin/java -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.a>
 
-● guacd.service - LSB: Guacamole proxy daemon\
-          Loaded: loaded (/etc/init.d/guacd; generated)\
-          Active: active (running) since Thu 2020-03-05 14:04:34 GMT; 3h 36min ago\
-            Docs: man:systemd-sysv-generator(8)\
-           Tasks: 1 (limit: 19107)\
-          Memory: 11.5M\
-          CGroup: /system.slice/guacd.service\
-                  └─991 /usr/local/sbin/guacd -p /var/run/guacd.pid\
+     ● guacd.service - LSB: Guacamole proxy daemon\
+               Loaded: loaded (/etc/init.d/guacd; generated)\
+               Active: active (running) since Thu 2020-03-05 14:04:34 GMT; 3h 36min ago\
+                 Docs: man:systemd-sysv-generator(8)\
+                Tasks: 1 (limit: 19107)\
+               Memory: 11.5M\
+               CGroup: /system.slice/guacd.service\
+                       └─991 /usr/local/sbin/guacd -p /var/run/guacd.pid\
 
 Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
 
-● mysql.service - LSB: Start and stop the mysql database server daemon\
-          Loaded: loaded (/etc/init.d/mysql; generated)\
-          Active: active (running) since Thu 2020-03-05 17:39:46 GMT; 1min 6s ago\
-            Docs: man:systemd-sysv-generator(8)\
-           Tasks: 34 (limit: 19107)\
-          Memory: 88.9M\
-          CGroup: /system.slice/mysql.service\
-                  ├─33670 /bin/sh /usr/bin/mysqld_safe\
-                  ├─33787 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib/x86_64-linux-gnu/mariadb19/plugin --user=mysql --skip-log-error --pid-file=/run/mysqld/mysqld.pid --soc>\
-                  └─33788 logger -t mysqld -p daemon error\
+     ● mysql.service - LSB: Start and stop the mysql database server daemon\
+               Loaded: loaded (/etc/init.d/mysql; generated)\
+               Active: active (running) since Thu 2020-03-05 17:39:46 GMT; 1min 6s ago\
+                 Docs: man:systemd-sysv-generator(8)\
+                Tasks: 34 (limit: 19107)\
+               Memory: 88.9M\
+               CGroup: /system.slice/mysql.service\
+                       ├─33670 /bin/sh /usr/bin/mysqld_safe\
+                       ├─33787 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib/x86_64-linux-gnu/mariadb19/plugin --user=mysql --skip-log-error --pid-file=/run/mysqld/mysqld.pid --soc>\
+                       └─33788 logger -t mysqld -p daemon error\
                   
                   
      kali@kali:/tmp/guac-install$
