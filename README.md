@@ -132,12 +132,14 @@ Installation Complete
      LISTEN    0         32                127.0.0.1:5900            0.0.0.0:*        users:(("x11vnc",pid=8056,fd=8))
      LISTEN    0         32                    [::1]:5900               [::]:*        users:(("x11vnc",pid=8056,fd=9))
      kali@kali:~$
-     Мы видим, что он использует порт 5900.
+Мы видим, что он использует порт 5900.
 
 После этого мы запускаем noVNC (это откроется 8081/TCP):
 
      kali@kali:~$ /usr/share/novnc/utils/launch.sh --listen 8081 --vnc localhost:5900
-
+<p align="center">
+  <img src="https://github.com/Cicadadenis/kali_linux_all/blob/main/bsp/img/novnc-kali-in-browser-1.png">
+</p
 
 А еще лучше включите SSH:
 
@@ -146,3 +148,7 @@ Installation Complete
 Затем на удаленном компьютере введите SSH в вашу настройку Kali (вам может потребоваться сначала включить переадресацию портов)
 
      $ ssh kali@192.168.13.37 -L 8081:localhost:8081
+     
+<p align="center">
+  <img src="https://github.com/Cicadadenis/kali_linux_all/blob/main/bsp/img/novnc-kali-in-browser-2.png">
+</p
