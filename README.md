@@ -10,11 +10,17 @@
 
 `` ''
 mkdir -p ~ / рука-материал /
+
 cd ~ / arm-stuff /
+
 git clone https://gitlab.com/kalilinux/build-scripts/kali-arm ~ / arm-stuff / kali-arm /
+
 cd ~ / arm-stuff / kali-arm /
+
 ./build-deps.sh
+
 ./pinebook-pro.sh 2021.2
+
 `` ''
 
 Если вы используете 32-разрядную версию, после того, как скрипт завершит работу, у вас будет файл изображения, расположенный в ~ / arm-stuff / kali-arm / `kali-linux-2021.2-pinebook-pro.img`.
