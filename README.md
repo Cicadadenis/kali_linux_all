@@ -201,58 +201,56 @@ Warning: Journal has been rotated since unit was started. Log output is incomple
      
 # Система
      
-kali-linux-core: Базовая система Kali Linux - основные элементы, которые всегда включены
-kali-linux-headless: Установка по умолчанию, не требующая графического интерфейса.
-kali-linux-default: «Стандартные» изображения рабочего стола (amd64 / i386) включают эти инструменты
-kali-linux-light: Изображения Kali-Light используют это для создания
-kali-linux-arm: Все инструменты подходят для устройств ARM.
+kali-linux-core: Базовая система Kali Linux - основные элементы, которые всегда включены\
+kali-linux-headless: Установка по умолчанию, не требующая графического интерфейса.\
+kali-linux-default: «Стандартные» изображения рабочего стола (amd64 / i386) включают эти инструменты\
+kali-linux-light: Изображения Kali-Light используют это для создания\
+kali-linux-arm: Все инструменты подходят для устройств ARM.\
 kali-linux-nethunter: Инструменты, используемые как часть Kali NetHunter.
      
 # Окружения рабочего стола / оконные менеджеры
      
-kali-desktop-core: Любые ключевые инструменты, необходимые для изображения графического интерфейса.
-kali-desktop-e17: Просвещение (WM)
-kali-desktop-gnome: GNOME (DE)
-kali-desktop-i3: i3 (WM)
-kali-desktop-kde: KDE (DE)
-kali-desktop-lxde: LXDE (WM)
-kali-desktop-mate: MATE (DE)
+kali-desktop-core: Любые ключевые инструменты, необходимые для изображения графического интерфейса.\
+kali-desktop-e17: Просвещение (WM)\
+kali-desktop-gnome: GNOME (DE)\
+kali-desktop-i3: i3 (WM)\
+kali-desktop-kde: KDE (DE)\
+kali-desktop-lxde: LXDE (WM)\
+kali-desktop-mate: MATE (DE)\
 kali-desktop-xfce: Xfce (WM)
      
 # Инструменты
      
-kali-tools-gpu: Инструменты, которые выигрывают от доступа к оборудованию GPU.
-kali-tools-hardware: Инструменты для взлома оборудования
-kali-tools-crypto-stego: Инструменты, основанные на криптографии и стеганографии.
-kali-tools-fuzzing: Для протоколов фаззинга
-kali-tools-802-11: 802.11 (обычно известный как «Wi-Fi»)
-kali-tools-bluetooth: Для таргетинга на устройства Bluetooth
-kali-tools-rfid: Инструменты радиочастотной идентификации
-kali-tools-sdr: Программно-определяемые радио инструменты
-kali-tools-voip: Инструменты передачи голоса по IP
+kali-tools-gpu: Инструменты, которые выигрывают от доступа к оборудованию GPU.\
+kali-tools-hardware: Инструменты для взлома оборудования\
+kali-tools-crypto-stego: Инструменты, основанные на криптографии и стеганографии.\
+kali-tools-fuzzing: Для протоколов фаззинга\
+kali-tools-802-11: 802.11 (обычно известный как «Wi-Fi»)\
+kali-tools-bluetooth: Для таргетинга на устройства Bluetooth\
+kali-tools-rfid: Инструменты радиочастотной идентификации\
+kali-tools-sdr: Программно-определяемые радио инструменты\
+kali-tools-voip: Инструменты передачи голоса по IP\
 kali-tools-windows-resources: Любые ресурсы, которые могут выполняться на хостах Windows.
      
 # Меню
      
-kali-tools-information-gathering: Используется для разведки с открытым исходным кодом (OSINT) и сбора информации.
-kali-tools-vulnerability: Инструменты оценки уязвимости
-kali-tools-web: Разработан для атак на веб-приложения.
-kali-tools-database: Основано на любых атаках на базы данных
-kali-tools-passwords: Полезно для атак со взломом паролей - онлайн и офлайн
-kali-tools-wireless: Все инструменты, основанные на беспроводных протоколах - 802.11, Bluetooth, RFID и SDR.
-kali-tools-reverse-engineering: Для двоичных файлов обратного проектирования
+kali-tools-information-gathering: Используется для разведки с открытым исходным кодом (OSINT) и сбора информации.\
+kali-tools-vulnerability: Инструменты оценки уязвимости\
+kali-tools-web: Разработан для атак на веб-приложения.\
+kali-tools-database: Основано на любых атаках на базы данных\
+kali-tools-passwords: Полезно для атак со взломом паролей - онлайн и офлайн\
+kali-tools-wireless: Все инструменты, основанные на беспроводных протоколах - 802.11, Bluetooth, RFID и SDR.\
+kali-tools-reverse-engineering: Для двоичных файлов обратного проектирования\
 kali-tools-exploitation: Обычно используется для эксплуатации
-kali-tools-social-engineering: Предназначен для использования методов социальной инженерии.
-kali-tools-sniffing-spoofing: Любые инструменты, предназначенные для сниффинга и спуфинга.
-kali-tools-post-exploitation: Техника постэксплуатационной стадии
-kali-tools-forensics: Инструменты судебной экспертизы - живые и офлайн
-kali-tools-reporting: Инструменты отчетности
+kali-tools-social-engineering: Предназначен для использования методов социальной инженерии.\
+kali-tools-sniffing-spoofing: Любые инструменты, предназначенные для сниффинга и спуфинга.\
+kali-tools-post-exploitation: Техника постэксплуатационной стадии\
+kali-tools-forensics: Инструменты судебной экспертизы - живые и офлайн\
+kali-tools-reporting: Инструменты отчетности\
      
 # Другие
      
-`kali-linux-large:` Наши предыдущие инструменты по умолчанию для изображений amd64 / i386
-     
-`kali-linux-everything:` Все метапакеты и инструменты, перечисленные здесь
-     
+`kali-linux-large:` Наши предыдущие инструменты по умолчанию для изображений amd64 / i386\    
+`kali-linux-everything:` Все метапакеты и инструменты, перечисленные здесь\
 `kali-tools-top10:` Наиболее часто используемые инструменты\
 `kali-desktop-live:` Используется во время живого сеанса при загрузке с образа.
